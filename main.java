@@ -6,7 +6,7 @@ public class main {
         Scanner sc = new Scanner(System.in);
 
         int num;
-        String name;
+        String name, major;
 
         System.out.print("이름을 입력하세요: ");
         name = sc.next();
@@ -14,7 +14,10 @@ public class main {
         System.out.print("학번을 입력하세요: ");
         num = sc.nextInt();
 
-        System.out.println("\n<출력> \n이름: " + name + "\n학번: " + num);
+        System.out.print("학과를 입력하세요: ");
+        major = sc.next();
+
+        System.out.println("\n<출력> \n이름: " + name + "\n학번: " + num + "\n학과: " + major);
 
     }
 }
